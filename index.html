@@ -57,6 +57,7 @@
     <title>Hockey</title>
   </head>
   <body class="font-manrope">
+    <!-- ======================== Navbar section ================================= -->
     <header>
       <div class="navbar container mx-auto">
         <div class="navbar-start">
@@ -93,12 +94,14 @@
             </ul>
           </div>
           <a
-            class="btn btn-ghost font-extrabold text-font_black text-2xl lg:text-4xl"
+            class="btn btn-ghost lg:text-dh text-font_black text-mh_22 lg:text-4xl"
             >Hockey<span class="text-red-600">'</span>s</a
           >
         </div>
         <div class="navbar-center hidden lg:flex">
-          <ul class="menu menu-horizontal px-1 font-normal text-light_gray]">
+          <ul
+            class="menu menu-horizontal px-1 font-normal text-light_gray text-normal_text_size"
+          >
             <li
               class="hover:bg-primary_color hover:text-white hover:rounded-lg transition-all"
             >
@@ -137,5 +140,194 @@
         </div>
       </div>
     </header>
+    <!-- ======================== Navbar section ================================= -->
+    <main>
+      <!-- ======================== Hero section ================================= -->
+      <section class="container mx-auto relative">
+        <div class="carousel w-full">
+          <div id="slide1" class="carousel-item relative w-full">
+            <img src="Images/1.png" class="w-full" />
+            <div
+              class="absolute left-5 right-5 bottom-0 flex -translate-y-1/2 transform justify-start gap-x-4"
+            >
+              <a
+                href="#slide4"
+                class="btn btn-circle bg-font_black text-white hover:text-primary_color"
+                >❮</a
+              >
+              <a
+                href="#slide2"
+                class="btn btn-circle bg-font_black text-white hover:text-primary_color"
+                >❯</a
+              >
+            </div>
+          </div>
+          <div id="slide2" class="carousel-item relative w-full">
+            <img src="Images/2.png" class="w-full" />
+            <div
+              class="absolute left-5 right-5 bottom-0 flex -translate-y-1/2 transform justify-start gap-x-4"
+            >
+              <a
+                href="#slide1"
+                class="btn btn-circle bg-font_black text-white hover:text-primary_color"
+                >❮</a
+              >
+              <a
+                href="#slide3"
+                class="btn btn-circle bg-font_black text-white hover:text-primary_color"
+                >❯</a
+              >
+            </div>
+          </div>
+          <div id="slide3" class="carousel-item relative w-full">
+            <img src="Images/3.png" class="w-full" />
+            <div
+              class="absolute left-5 right-5 bottom-0 flex -translate-y-1/2 transform justify-start gap-x-4"
+            >
+              <a
+                href="#slide2"
+                class="btn btn-circle bg-font_black text-white hover:text-primary_color"
+                >❮</a
+              >
+              <a
+                href="#slide4"
+                class="btn btn-circle bg-font_black text-white hover:text-primary_color"
+                >❯</a
+              >
+            </div>
+          </div>
+          <div id="slide4" class="carousel-item relative w-full">
+            <img src="Images/4.png" class="w-full" />
+            <div
+              class="absolute left-5 right-5 bottom-0 flex -translate-y-1/2 transform justify-start gap-x-4"
+            >
+              <a
+                href="#slide3"
+                class="btn btn-circle bg-font_black text-white hover:text-primary_color"
+                >❮</a
+              >
+              <a
+                href="#slide1"
+                class="btn btn-circle bg-font_black text-white hover:text-primary_color"
+                >❯</a
+              >
+            </div>
+          </div>
+        </div>
+        <div
+          tabindex="0"
+          class="collapse border-base-300 bg-font_black lg:w-1/2 lg:absolute lg:bottom-[32px] lg:right-[32px]"
+        >
+          <div
+            class="collapse-title text-text_progress lg:text-[24px] text-white"
+          >
+            Meet all the heroes from the field
+          </div>
+          <div class="collapse-open px-4 pb-3 text-slate-400">
+            <p>
+              Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+              turpis placerat dolor. Purus urna in sit nullam proin.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- ======================== Hero section ================================= -->
+      <section class="container mx-auto">
+        <div
+          class="flex flex-col justify-center items-center gap-y-4 lg:gap-y-6 text-center py-6 lg:py-8"
+        >
+          <h2 class="text-font_black text-mh_22 lg:text-dh mt-16 lg:mt-24">
+            Professional Hockeys Club
+          </h2>
+          <p
+            class="max-w-mx_w_m lg:max-w-mx_w_d text-normal_text_size text-light_gray"
+          >
+            Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+            turpis placerat dolor. Purus urna in sit nullam proin.
+          </p>
+        </div>
+        <div
+          class="flex flex-col-reverse lg:flex-row-reverse items-center lg:justify-between mt-6 lg:mt-12 gap-y-6"
+        >
+          <div
+            class="flex flex-col items-center max-w-mx_progress text-center gap-y-4"
+          >
+            <div
+              class="radial-progress text-[#4C8DF1] rotate-[140deg]"
+              style="--value: 80; --size: 120px; --thickness: 1rem"
+              role="progressbar"
+            >
+              <p class="text-black text-progress_text rotate-[-140deg]">80%</p>
+            </div>
+            <h4 class="text-text_progress text-font_black">Training Ground</h4>
+            <p class="text-light_gray text-normal_text_size">
+              Amet consectetur. Condimentum dignissim adipiscing .
+            </p>
+          </div>
+          <div
+            class="flex flex-col items-center max-w-mx_progress text-center gap-y-4"
+          >
+            <div
+              class="radial-progress text-[#FFB546] rotate-[140deg]"
+              style="--value: 90; --size: 120px; --thickness: 1rem"
+              role="progressbar"
+            >
+              <p class="text-black text-progress_text rotate-[-140deg]">90%</p>
+            </div>
+            <h4 class="text-text_progress text-font_black">Senior Player</h4>
+            <p class="text-light_gray text-normal_text_size">
+              Amet consectetur. Condimentum dignissim adipiscing .
+            </p>
+          </div>
+          <div
+            class="flex flex-col items-center max-w-mx_progress text-center gap-y-4"
+          >
+            <div
+              class="radial-progress text-[#49D293] rotate-[140deg]"
+              style="--value: 95; --size: 120px; --thickness: 1rem"
+              role="progressbar"
+            >
+              <p class="text-black text-progress_text rotate-[-140deg]">95%</p>
+            </div>
+            <h4 class="text-text_progress text-font_black">
+              Experienced Coach
+            </h4>
+            <p class="text-light_gray text-normal_text_size">
+              Amet consectetur. Condimentum dignissim adipiscing .
+            </p>
+          </div>
+          <div
+            class="flex flex-col items-center max-w-mx_progress text-center gap-y-4"
+          >
+            <div
+              class="radial-progress text-primary_color rotate-[140deg]"
+              style="--value: 87; --size: 120px; --thickness: 1rem"
+              role="progressbar"
+            >
+              <p class="text-black text-progress_text rotate-[-140deg]">87%</p>
+            </div>
+            <h4 class="text-text_progress text-font_black">Prayer Facility</h4>
+            <p class="text-light_gray text-normal_text_size">
+              Amet consectetur. Condimentum dignissim adipiscing .
+            </p>
+          </div>
+        </div>
+      </section>
+      <div>
+        <div
+          class="flex flex-col justify-center items-center gap-y-4 lg:gap-y-6 text-center py-6 lg:py-8"
+        >
+          <h2 class="text-font_black text-mh_22 lg:text-dh mt-16 lg:mt-24">
+            Program Sections
+          </h2>
+          <p
+            class="max-w-mx_w_m lg:max-w-mx_w_d text-normal_text_size text-light_gray"
+          >
+            Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+            turpis placerat dolor. Purus urna in sit nullam proin.
+          </p>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
