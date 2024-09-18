@@ -34,6 +34,7 @@ module.exports = {
         primary_color: "#FF4240",
         font_black: "#131318",
         light_gray: "#13131899",
+        border_color: "#1313181a",
       },
     },
   },
