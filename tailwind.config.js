@@ -10,6 +10,20 @@ module.exports = {
           fontWeight: "800",
         },
       ],
+      font_24px: [
+        "24px",
+        {
+          lineHeight: "1.2rem",
+          fontWeight: "800",
+        },
+      ],
+      font_18px: [
+        "18px",
+        {
+          lineHeight: "2rem",
+          fontWeight: "800",
+        },
+      ],
       text_progress: [
         "20px",
         {
@@ -35,6 +49,7 @@ module.exports = {
         font_black: "#131318",
         light_gray: "#13131899",
         border_color: "#1313181a",
+        light_white: "#ffffff99",
       },
     },
   },
